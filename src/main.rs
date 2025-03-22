@@ -1,5 +1,5 @@
 fn main() {
-    println!("{}", even_or_odd(2));
+    println!("{}", even_or_odd(3));
 }
 
 fn even_or_odd(n: i32) -> &'static str {
