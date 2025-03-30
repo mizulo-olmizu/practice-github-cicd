@@ -1,5 +1,6 @@
 fn main() {
     println!("{}", even_or_odd(3));
+    println!("Example v{}", env!("CARGO_PKG_VERSION"));
 }
 
 fn even_or_odd(n: i32) -> &'static str {
